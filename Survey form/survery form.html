@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Sample Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="survery form.css">
+</head>
+
+<body>
+    <h1 id="title">Sample Survey Form</h1>
+    <div id="content">
+        <p id="description">This is a sample survey form</p><br>
+        <form id="survey-form">
+            <div id="labels">
+                <label id="name-label">
+        Name: </label>
+            </div>
+            <div class="rightside"><input type="text" class="input-field" required id="name" label="name-label" placeholder="Enter your name">
+
+            </div>
+            <br>
+            <div id="labels">
+                <label id="email-label">
+        Email: </label>
+            </div>
+            <div class="rightside">
+                <input type="email" class="input-field" required id="email" label="email-label" placeholder="Enter your email">
+                </br>
+            </div>
+            <br>
+            <label id="number-label">
+        <div id="labels">
+        Age: </label>
+    </div>
+    <div class="rightside">
+        <input type="number" class="input-field" id="number" label="number-label" placeholder="Enter your age" min="18" max="60">
+        </br>
+    </div>
+    <br>
+    <div id="labels">
+        How often do you use FCC ?
+    </div>
+    <div class="rightside">
+        <select id="dropdown">
+        <option value="daily">Daily</option>
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+      </select>
+        </br>
+    </div>
+    <br>
+    <div id="labels">
+        Gender:
+    </div>
+    <div class="rightside">
+        <ul>
+            <li class="rad"><input type="radio" value="male" name="gender">Male</li>
+            <li class="rad"><input type="radio" value="female" name="gender">Female</li>
+        </ul>
+    </div>
+    <br>
+    <div id="labels">
+        How likely are you to recommend FCC to your colleagues ?
+    </div>
+    <div class="rightside">
+        <ul>
+            <li class="rad"><input type="radio" value="definitley" name="recommend">Definitely</li>
+            <li class="rad"><input type="radio" value="maybe" name="recommend">May be</li>
+            <li class="rad"><input type="radio" value="no" name="recommend">Not interested</li>
+        </ul>
+    </div>
+    <br>
+    <div id="labels">
+        I am interested in:
+    </div>
+    <div class="rightside">
+        <ul>
+            <li class="check"><input type="checkbox" value="js">JS</li>
+            <li class="check"><input type="checkbox" value="html">HTML</li>
+            <li class="check"><input type="checkbox" value="css">CSS</li>
+            <li class="check"><input type="checkbox" value="jquery">JQuery</li>
+            <li class="check"><input type="checkbox" value="bootstrap">Bootstrap</li>
+        </ul>
+    </div>
+    <br>
+    <div id="labels">
+        Additional Comments:
+    </div>
+    <div class="rightside">
+        <ul class="check">
+            <textarea placeholder="Enter comments here"></textarea>
+            <ul>
+    </div>
+    <br>
+    <input type="submit" value="Submit" id="submit">
+    </form>
+    </div>
+</body>
+
+</html>
